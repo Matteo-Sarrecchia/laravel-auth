@@ -17,7 +17,13 @@
                     </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{-- @foreach ($projects as $project)
+                        <ul class="list-unstyled">
+                            <li>
+                                <span class="fw-bold" style="font-size: 20px">{{ $project -> title }}</span>
+                            </li>
+                        </ul>
+                     @endforeach --}}
                 </div>
             </div>
         </div>

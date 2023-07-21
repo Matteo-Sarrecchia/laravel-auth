@@ -21,7 +21,7 @@ return new class extends Migration
             $table -> integer('people');
             $table -> string('date_start');
             $table -> integer('duration');
-            $table -> string('description');
+            $table -> text('description');
 
             $table->timestamps();
         });
