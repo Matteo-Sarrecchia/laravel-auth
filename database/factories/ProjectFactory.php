@@ -21,8 +21,8 @@ class ProjectFactory extends Factory
             'project_leader_name'=> fake() -> name(),
             'people'=> fake() -> numberBetween(1, 100),
             'date_start'=> fake() -> date(),
-            'duration'=> fake() -> numberBetween(10, 1000),
-            'description'=> fake() -> paragraphs(2, true)
+            'duration'=> fake() -> numberBetween(1, 1000),
+            'description'=> fake() -> paragraphs(5, true)
         ];
     }
 }
